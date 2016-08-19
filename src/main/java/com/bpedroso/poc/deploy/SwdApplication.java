@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CdApiApplication {
+public class SwdApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CdApiApplication.class, args);
+		SpringApplication.run(SwdApplication.class, args);
 	}
 }
