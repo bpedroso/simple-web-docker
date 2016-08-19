@@ -1,4 +1,4 @@
-# simple-web-docker
+# Simple Web Docker
 =============
 
 Application to validate deploy of web application with docker on jenkins.
@@ -8,6 +8,7 @@ Application to validate deploy of web application with docker on jenkins.
 mvn package docker:build
 ```
 
+
 //TODO NOW
 ------------
 2 - Add docker to mongodb
@@ -16,6 +17,12 @@ mvn package docker:build
 
 4 - Create integration tests to persist and validade data on mongo docker
 
+
 //Future
 ------------
 Pipeline on Jenkins
+
+References:
+------------
+
+https://github.com/picadoh/boots
