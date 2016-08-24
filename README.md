@@ -3,10 +3,25 @@
 
 Application to validate deploy of web application with docker on jenkins.
 
-1 - Build docker application
+Pre Requisites:
+=============
+
+1 - docker daemon running
+2 - docker group created
+3 - current user in the docker group
+
+
+Build And Run
+=============
+
+
+1 - Build Docker
 ```ruby
 mvn package docker:build
 ```
+
+2 - Run Docker
+docker run --name swd -p 8080:8080 poc/simple-web-docker
 
 
 //TODO NOW
